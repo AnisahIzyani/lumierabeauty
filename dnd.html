@@ -1,0 +1,597 @@
+<html>
+<head>
+<title> Do And Don't </title>
+
+<!---css--->
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!---BACKGROUND--->
+
+<body style="background-color: #fee1e8"></body>
+
+<!---top nav--->
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ 
+<style> 
+	.navbar { 
+  	overflow: hidden; 
+  	background-color:#fc6998; 
+  	font-family: Candara ;} 
+ 
+	.navbar a { 
+  	float: left; 
+  	font-size: 100%; 
+  	color: white; 
+  	text-align: center; 
+  	padding: 14px 16px; 
+  	text-decoration: none;} 
+ 
+	.dropdown { 
+  	float: left; 
+  	overflow: hidden;} 
+ 
+	.dropdown .dropbtn { 
+  	cursor: pointer; 
+  	font-size: 100%;   
+  	border: none; 
+  	outline: none; 
+  	color: white; 
+  	padding: 14px 16px; 
+  	background-color: inherit; 
+  	font-family: inherit; 
+  	margin: 0;} 
+ 
+	.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus { 
+  	background-color:#f99aaa;} 
+ 
+	.dropdown-content { 
+  	display: none; 
+  	position: absolute; 
+ 	background-color: #f9f9f9; 
+  	min-width: 160px; 
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  	z-index: 1;} 
+ 
+	.dropdown-content a { 
+  	float: none; 
+  	color: #89004f; 
+  	padding: 12px 16px; 
+  	text-decoration: none; 
+  	display: block; 
+  	text-align: left;} 
+ 
+	.dropdown-content a:hover { 
+  	background-color: #ffcdd4;} 
+ 
+	.show { 
+  	display: block;} 
+ 
+</style> 
+ 
+<!---BANNER--->
+
+<style>
+	body, html {
+  	height: 100%;
+  	margin: 4;
+  	font-family: Arial, Helvetica, sans-serif;}
+
+	.hero-image {
+  	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("asset/image/banner2.jpg");
+  	height: 50%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;}
+
+	.hero-text {
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;}
+
+	.hero-text button {
+  	border: none;
+  	outline: 0;
+  	display: inline-block;
+  	padding: 10px 25px;
+  	color: black;
+  	background-color: #ddd;
+  	text-align: center;
+  	cursor: pointer;}
+
+	.hero-text button:hover {
+  	background-color: #555;
+  	color: white;}
+
+</style>
+
+
+
+<!---FOOTER--->
+
+<style>
+  	/* CSS styles for the footer */
+  	footer {    
+	border-top: 1px solid #ccc;    
+	padding: 20px 0;    
+	text-align: center;}
+    
+	.footer-content {    
+	margin: 0 auto;    
+	max-width: 960px;}
+    
+	.footer-content p {    
+	margin-bottom: 10px;}
+    
+	.footer-links li {    
+	display: inline-block;    
+	margin-right: 10px;}
+    
+	.footer-links li:last-child {    
+	margin-right: 0;}
+    
+	.footer-links a {
+	color: #555;   
+	text-decoration: none;}
+    
+	.footer-links a:hover {
+	text-decoration: underline;}
+</style>
+
+
+
+</head> 
+ 
+<body> 
+
+
+<a name="Top_Page"> </a>
+
+<!---NAV--->
+
+	<div class="navbar">
+	<a href="index.html"> HOME </a>
+	<a href="TEENAGER.html"> TEENS </a>
+	<a href="ADULTS.html"> ADULTS </a>
+	<a href="skintype.html"> SKIN TYPES </a>
+	<a href="FUNCTION.html"> FUNCTION OF SKINCARE </a>
+	<a href="SOLUTION.html"> SOLUTION FOR SKIN PROBLEM </a>
+	<a href="dnd.html"> DO AND DON'T </a>
+	<a href="korea.html"> KOREAN SKINCARE TIPS </a>
+
+
+	<div class="dropdown">
+	<button class="dropbtn" onclick="myFunction()"> ABOUT US
+	<i class="fa fa-caret-down"></i>
+	</button>
+
+	<div class="dropdown-content" id="myDropdown">
+	<a href="bg.html"> Background </a>
+	<a href="vnm.html"> Vision & Mission </a>
+	<a href="ob.html"> Objectives </a>
+	</div>
+	</div> 
+	</div>
+
+<script>
+
+	function myFunction() {
+  	document.getElementById("myDropdown").classList.toggle("show");}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(e) {
+  	if (!e.target.matches('.dropbtn')) {
+  	var myDropdown = document.getElementById("myDropdown");
+    	if (myDropdown.classList.contains('show')) {
+      	myDropdown.classList.remove('show');
+    	}	
+  	}
+	}
+
+</script>
+
+<br>
+
+
+<!---BANNER-->
+
+	<div class="hero-image">
+	<div class="hero-text">
+	<h1 style="font-size:50px"><font size="10px" face="Verdana" color="white"><i><b><u>DO AND DON'T IN SKINCARE</i></b></u></font></h1>
+
+
+<br> <br>
+
+<!---AUDIO--->
+
+	<center>
+	<audio controls>
+	<source src="asset/audio/education.mp3" type="audio/mp3" loop>
+	</audio>
+	</center>
+	</div>
+	</div>
+
+<br><br>
+
+<!---ANIMATION--->
+
+	<center>
+	<title>Animated Text</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    
+	<div class="animation-container">        
+	<h1 class="animated-text"face="time new roman" font size="5px"><p>&#128205;<i><b><u>ACNE PRONE SKIN</i></b></u></h1>    
+	</div>
+	</center>
+ 
+<br><br>
+
+<!---TABLE--->
+
+<style>
+	table, th, td 
+	{border:2px solid black;}
+</style>
+
+	<table style="width:100%" bgcolor="#f99aaa">
+
+	<tr>    
+	<th>DO </th>    
+	<th>DONT</th>  
+	</tr>
+ 
+	<tr>    
+	<td><p>&#9989;DO TRY TEA TREE OIL</td>    
+	<td><p>&#10062;DON'T SQUEEZE YOUR PIMPLE</td>  
+	</tr>
+
+	<tr>   
+	<td><p>&#9989;DO APPLY A SULFUR BASED CREAM</td>    
+	<td><p>&#10062;DON'T APPLY TOOTHPASTE</td>  
+	</tr>
+
+	<tr>
+    	<td><p>&#9989;DO CLEAN YOUR COSMETIC BRUSHES REGULARLY</td>
+   	 <td><p>&#10062;DON'T APPLY CRUSHED ASPIRIN</td>
+	  </tr>
+
+ 	 <tr>
+   	 <td><p>&#9989;DO DOUBLE CLEANSE </td>
+    	<td><p>&#10062;DONT TOUCH YOUR FACE</td>
+  	</tr>
+
+ 	 <tr>
+   	 <td><p>&#9989;DO KEEP YOUR SKIN CLEAN</td>
+   	 <td><p>&#10062;DON'T GO TO BED WITHOUT REMOVING MAKEUP</td>
+ 	 </tr>
+
+	</table>
+
+<br><br>
+
+	<center>
+	<title>Animated Text</title>    
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<div class="animation-container">        
+	<h1 class="animated-text"face="time new roman" font size="5px"><p>&#128205;<i><b><u>SENSITIVE SKIN</i></b></u></h1>    
+	</div>
+
+<br><br>
+
+<!---TABLE 1--->
+
+<style>
+
+	table, th, td {
+  	border:2px solid black;
+	}
+
+</style>
+
+	<table style="width:100%" bgcolor="#f99aaa">
+  
+	<tr>
+    	<th>DO </th>
+    	<th>DONT</th>
+ 	 </tr>
+
+  	<tr>
+    	<td><p>&#9989;KEEP IT SUPER SIMPLE USE COSMETICS WITH LESS THAN 10 INGREDIANTS</td>
+    	<td><p>&#10062;AVOID COMEDOGENIC INGREDIENTS</td>
+ 	</tr>
+
+  	<tr>
+    	<td><p>&#9989;USE ONLY FEW COSMETICS</td>
+    	<td><p>&#10062;DON'T OVER EXFOLIATE</td>
+  	</tr>
+
+	<tr>
+    	<td><p>&#9989;ANTI INFLAMMATORY INGREDIENTS </td>
+    	<td><p>&#10062;CLOG WITH A LOT OF COSMETICS</td>
+  	</tr>
+
+  	<tr>
+    	<td><p>&#9989;ZINC OXIDE AS SUN SCREEN </td>
+    	<td><p>&#10062;HANDLE HARSH CLEASER</td>
+  	</tr>
+
+	</table>
+
+<br><br>
+
+	<center>    
+	<title>Animated Text</title>    
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    
+	<div class="animation-container">        
+	<h1 class="animated-text"face="time new roman" font size="5px"><p>&#128205;<i><b><u>DRY SKIN</i></b></u></h1>    
+	</div>
+
+<br><br>
+
+<!---TABLE 2--->
+
+<style>
+	table, th, td {
+  	border:2px solid black;
+	}
+</style>
+
+	<table style="width:100%" bgcolor="#f99aaa">
+  
+	<tr>
+    	<th>DO </th>
+    	<th>DONT</th>
+  	</tr>
+
+  	<tr>
+    	<td><p>&#9989;ONLY CLEANSE AT NIGHT </td>
+    	<td><p>&#10062;DON'T USE HOT WATER</td>
+  	</tr>
+
+  	<tr>
+    	<td><p>&#9989;AVOID GLYCOLIC ACID</td>
+    	<td><p>&#10062;DON'T OVER EXFOLIATE</td>
+  	</tr>
+
+	<tr>
+    	<td><p>&#9989;AVOID SCENTED PRODUCTS </td>
+    	<td><p>&#10062;DON'T APPLY ON DRY SKIN</td>
+  	</tr>
+
+	</table>
+
+<br><br>
+
+<!---SKINCARE CAN'T MIX--->
+
+	<center>
+	<hr>
+	<font size="5px" face="Elephant" color="#f70071"><p>&#128205;<i><b><u>SKINCARE CAN'T MIX</i></b></u></font>
+	<hr>
+	</center>
+
+<br><br><br>
+
+<!---INFO--->
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u>VITAMIN C <sub>PLUS </sub> AHAS/BHAS OR MATRIXYL<img src="asset/image/icon.png" height="50px" 	width="50px"
+	alt="image"> </i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>VITAMIN C SHOULD NOT BE MIXED WITH AHA/BHA OR MATRIXYL BECAUSE IT CAN CAUSE SKIN IRRITATION  AND 	REDUCE THE EFFECTIVENESS OF THE PRODUCTS</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u><img src="asset/image/icon.png" height="50px" width="50px"
+	alt="image">GLYCOLIC ACID <sub> PLUS </sub> LACTIC ACID OR SALICYLIC ACID</i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>GLYCOLIC ACID CANNOT BE MIXED WITH LACTIC ACID OR SALICYLIC ACID BECAUSE IT CAN CAUSE OVER 	EXFOLIATION AND SKIN IRRITATION</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u>RETINOL <sub>PLUS </sub> VITAMIN C OR SALICYLIC ACID<img src="asset/image/icon.png" height="50px" 	width="50px"
+	alt="image"></i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>RETINOL CANNOT BE MIXED WITH VITAMIN C OR SALICYLIC ACID BECAUSE THEY CAN REDUCE ITS EFFECTIVENESS 	AND CAUSE SKIN IRRITATION</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u><img src="asset/image/icon.png" height="50px" width="50px"
+	alt="image">NIACINAMIDE <sub>PLUS </sub> VITAMIN C OR AHAS/BHA</i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>NIACINAMIDE CANNOT BE MIXED WITH VITAMINC OR AHAS/BHAS BECAUSE THEY CAN REDUCE ITS EFFECTIVENESS 	AND CAUSE SKIN IRRITATION</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<hr>
+	<font size="5px" face="Elephant" color="#f70071"><p>&#128205;<i><b>SKINCARE CAN MIX</i></b></font>
+	<hr>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u> <img src="asset/image/serum.png" height="50px" width="50px"
+	alt="image">VITAMIN <sub>PLUS </sub> SPF </i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>FREE RADICAL PROTECTION</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u>RETINOL <sub>PLUS</sub> HYALURONIC ACID <img src="asset/image/serum.png" height="50px" width="50px"
+	alt="image"> </i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>REGENERATING</i></b></font>
+	</center>
+
+<br><br>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f74780"><i><b><u><img src="asset/image/serum.png" height="50px" width="50px"
+	alt="image">ROSEHIP OIL <sub>PLUS</sub> RETINOL </i></b></u></font>
+	</center>
+
+<br>
+
+	<center>
+	<font size="2px" face="Arial" color="black"><p>&#10145<i><b>REVITALIZING SKIN CELLS</i></b></font>
+	</center>
+
+<br><br>
+
+<hr>
+
+	<center>
+	<font size="5px" face="Elephant" color="#f70071"><i><b>WHICH INGREDIENTS CAN BE USED TOGETHER ? </i></b></font>
+	</center>
+	<hr>
+
+<!---TABLE 1--->
+
+<br> <br>
+
+	<center>
+	<table>
+	<tr bgcolor="#f99aaa">
+
+	<th>LET'S TRY TO GET BETTER SKIN!</th>
+	</tr>
+	</table>
+	
+	</center>
+
+<br><br><br>
+
+<!---TABLE--->
+
+	<center>
+	<table bgcolor="#f99aaa" >
+	
+	<tr>
+	<th>THIS</th>
+	<th>PLUS </th>
+	<th>THIS </th>
+	<th>GET THIS</th>
+	</tr>
+
+	<tr>
+	<td><b><p>&#9989;NIACINAMIDE </td></b>
+        <td><b><p>&#10133;PLUS</td></b>
+	<td><b><p>&#9989;SINGLE EDGE EXFOLIATION BLADE</td></b>
+	<td><b>DEWY COMPLEXION</td><b>
+	</tr>
+
+	<tr>
+	<td><b><p>&#9989;SH OLIGOPEPTIDE 1 </td></b>
+        <td><b><p>&#10133;PLUS</td></b>
+	<td><b><p>&#9989;SALICYLIC ACID </td></b>
+	<td><b>HEAL AND PREVENT BREAKOUTS</td><b>
+	</tr>
+
+	<tr>
+	<td><b><p>&#9989;PROBIOTIC GREEN TEA COMPLEX</td></b>
+        <td><b><p>&#10133;PLUS</td></b>
+	<td><b><p>&#9989;2MM MICRO EXFOLIATION </td></b>
+	<td><b>EVEN COMPLEXION TONE</td><b>
+	</tr>
+
+	<tr>
+	<td><b><p>&#9989;PEPTIDE BLEND</td></b>
+        <td><b><p>&#10133;PLUS</td></b>
+	<td><b><p>&#9989;2MM MICRO EXFOLIATION</td></b>
+	<td><b>REDUCE CROW'S FEET</td><b>	    
+	</tr>
+
+	<tr>
+	<td><b><p>&#9989;LACTIC ACID </td></b>
+        <td><b><p>&#10133;PLUS</td></b>
+	<td><b><p>&#9989;SINGLE EDGE EXFOLIATION BLADE</td></b>
+	<td><b>CLEAR CLOGGED PORES</td><b>
+	</tr>
+
+	</table>
+	</center>
+
+
+<br> <br> 
+
+<!---ANCHOR--->
+
+	<a href="#Top_Page">
+	<img src="asset/image/kurami.gif" width="100" 
+	align="right">
+	</a>
+
+
+<br> <br> <br> <br> <br> <br>
+
+
+<!---FOOTER--->
+
+	<footer>  
+	<div class="footer-content">    
+
+	<p> <font size="4px" color="#ff435c" face="Didot"> <b> &copy; 2023 LumièreBeauty Co. All rights reserved. </b> </font> </p>    
+	<ul class="footer-links">   
+   
+	<li><a href="index.html"> <font size="3px" color="#615e5b" face="Didot"> Home </font> 
+	</a>
+	</li>      
+
+	<li><a href="bg.html"> <font size="3px" color="#615e5b" face="Didot"> About </font> 
+	</a>
+	</li>
+
+	<li><a href="https://wa.link/mgxq7w"> <font size="3px" color="#615e5b" face="Didot"> Contact </font> 
+	</a>
+	</li>    
+	</ul>
+	</div>
+	</footer>
+
+</body>
+</html>
